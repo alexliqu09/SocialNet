@@ -66,3 +66,9 @@ Bellow is the ```versionV1``` of SocialNet.
 * Alejandro Alfonso Polanco Parco , Email: alejandro.polanco.p@uni.pe 
 * Diego Vázques Levano , Email: diego.vasquez.l@uni.pe  
 * Jhon Poma Martinez , Email: jhonatan.poma.m@uni.pe 
+
+## 🙏🏽 Special thanks
+
+* Many thanks to the youtube chanel [hdeleon.net](https://www.youtube.com/channel/UCDUdeFslCNoM29MAlZOfdWQ),this work would not have been possible without your repository.
+
+* Many thanks to this [pageWeb](https://stackoverflow.com/questions/14642125/i-need-to-primitive-root-of-prime-number),this work would not have been possible without your repository.
