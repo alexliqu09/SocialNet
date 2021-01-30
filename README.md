@@ -1,9 +1,14 @@
 <h2 align="center">
-<p>  SocialNet  </p>
+<p> SocialNet  </p>
 </h2>
 <h2 align="center">
+<img alt="Java"  src= "https://img.shields.io/badge/java-%23ED8B00.svg?&style=for-the-badge&logo=java&logoColor=white"/>
+<img alt="GitHub" src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white" />
+<img alt="Git" src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white" />
+<img alt="Postgres" src="https://img.shields.io/badge/postgres-%23316192.svg?&style=for-the-badge&logo=postgresql&logoColor=white" />
 <p></p>
-
+<p></p>
+</h2>
 ## 📜 Abstract
 
 ## 🆕 Update
