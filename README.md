@@ -29,6 +29,25 @@ The following tree shows the structure of the application:
 |   |-script.txt
 |   |-README.md
 ```
+
+## Prerequisites
+
+- Netbeans 12.2 
+
+- Linux
+
+- Postgresql
+
+## Installation
+
+1. Download PostgreSQLJDBC Driver -postgressql-42.2.16.jar ,you can consult [here](https://jdbc.postgresql.org/download.html)
+
+2. Clone this repo:
+```
+!git clone https://github.com/alexliqu09/SocialNet.git
+
+```
+
 Bellow is the ```versionV1``` of SocialNet.
  
 <p align="center">
