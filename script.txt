@@ -1,0 +1,158 @@
+create table sala(
+id_sala int,
+id_tipo int);
+ 
+ 
+ create table tipo_sala(
+ id_tipo_sala int,
+ nombre varchar(50));
+
+create table usuario(
+id_nombre int,
+nombre varchar(70),
+correo varchar(70),
+password varchar(100),
+telefono int);
+
+create table sala_usuario(
+id_sala_usuario int,
+id_sala int,
+id_nombre int );
+
+create table mensaje(
+id_usuario int,
+mensaje varchar(350),
+id_tipo varchar(20),
+fecha varchar(12),
+hora varchar(12));
+
+create table codigo(
+cd_sesion_user bigint,
+id_nombre bigint);
+/*
+insert into codigo(cd_sesion_user,id_nombre) values (367,20192196);
+insert into codigo(cd_sesion_user,id_nombre) values (271,20193246);
+insert into codigo(cd_sesion_user,id_nombre) values (263,34256743);
+insert into codigo(cd_sesion_user,id_nombre) values (241,43226598);
+insert into codigo(cd_sesion_user,id_nombre) values (229,64632167);
+insert into codigo(cd_sesion_user,id_nombre) values (179,43532366);
+insert into codigo(cd_sesion_user,id_nombre) values (149,34523674);
+insert into codigo(cd_sesion_user,id_nombre) values (311,33451234);
+insert into codigo(cd_sesion_user,id_nombre) values (383,23427654);
+insert into codigo(cd_sesion_user,id_nombre) values (359,40229394);     
+*/
+/////////////////////////////////////////////////////
+/*id_usuario
+alexander = 3120142019l , 0.017445597
+Diego= 4325678klm , 0.02542269
+polanco = 543uni45tgd 0.016218513
+Jhon Poma = poma45gf675dfmartinez , 0.015005642000000001
+Royer Lopez= romal234df54 ,0.015393800000000001
+Jose Perez = 12345678902jose , 0.019495307
+Gilberto Gamarra= universidadnacional , 0.015199744000000001
+Gustavo Olortegui= pajuelo 3245678 , 0.017516349
+Jesus Rojas= m123i65k94o  0.015303335000000001
+jimmy = cesarvallejoacadmia, 0.01652512
+*/
+/////////////////////////////////////////////////////
+Usuarios
+
+insert into usuario(id_nombre,nombre,correo,password,telefono) values (20192196,'Alexander Lique','alexander.lique.l@uni.pe','13f0ec3f28907bf8b292d5f5490fe4c54aa9f2f3feec9467f19cd908f618cb2b',981272242);
+insert into usuario(id_nombre,nombre,correo,password,telefono) values (20193246,'Diego Vasquez','diego.vazquez.v@uni.pe','a26f2db2e64e662c79d0efb43223896cad6b15cb23f2c89d629ee0f2c14ca1a2',981534275);
+insert into usuario(id_nombre,nombre,correo,password,telefono) values (34256743,'Alejandro Polanco','alejandro.polanco.p@uni.pe','f791267cbbc5cba7c76d633123629778cc41619cc18156ca3656029829f58226',981287594);
+insert into usuario(id_nombre,nombre,correo,password,telefono) values (43226598,'Jhon Poma','jhon.poma.p@uni.pe','508339b1d2c7825d0dfe1af5fcd28c76a7d5be4437aea0fc4bc47085e613b2f4',981478623);
+insert into usuario(id_nombre,nombre,correo,password,telefono) values (64632167,'Royer Lopez','royer.lopez.l@uni.pe','51b4ce859991dd97a9010129364a941802eba1abe55bd20871d6b03167dec5b3',981345345);
+insert into usuario(id_nombre,nombre,correo,password,telefono) values (43532366,'Jose Perez','jose.perez.p@uni.pe','6b860437fc948eccb8c3c846363253abc62a9b93be67aaada9703b4dc6435b44',981430567);
+insert into usuario(id_nombre,nombre,correo,password,telefono) values (34523674,'Gilberto Gamarra','gilberto.gamarra.g@uni.pe','6b860437fc948eccb8c3c846363253abc62a9b93be67aaada9703b4dc6435b44',981432567);
+insert into usuario(id_nombre,nombre,correo,password,telefono) values (33451234,'Gustavo Olortegui','gistavo.olortegui.o@uni.pe','fd08626b6ec80801831b21bd597fc85d93d531a342a1d40862a8fc3c3e111af5',98143642);
+insert into usuario(id_nombre,nombre,correo,password,telefono) values (23427654,'Jesus Rojas','jesus.rojas.r@uni.pe','46ae9c4cc2ab2bf7efd4491503dc00f41f9c93aa53382ed75734fe48d2d748ed',981653494);
+insert into usuario(id_nombre,nombre,correo,password,telefono) values (40229394,'Jimmy','jimmy.r@uni.pe','8f743b46e4d995b0a54e10ac45bf464124fd20572c2d4ee558f5a479f49333fe',981238065);
+
+///////////////////////////////////////////////////////
+Tipo de sala
+
+insert into tipo_sala(id_tipo_sala,nombre) values (1,'individual');
+insert into tipo_sala(id_tipo_sala,nombre) values (2,'grupal');
+insert into tipo_sala(id_tipo_sala,nombre) values (3,'privada');
+
+/////////////////////////////////////////////////////////
+sala;
+
+insert into sala(id_sala,id_tipo) values (2267,1);
+insert into sala(id_sala,id_tipo) values (3119,2);
+insert into sala(id_sala,id_tipo) values (3253,3);
+insert into sala(id_sala,id_tipo) values (3209,3);
+insert into sala(id_sala,id_tipo) values (4099,1);
+insert into sala(id_sala,id_tipo) values (4933,1);
+insert into sala(id_sala,id_tipo) values (5153,2);
+insert into sala(id_sala,id_tipo) values (5273,1);
+insert into sala(id_sala,id_tipo) values (6701,1);
+insert into sala(id_sala,id_tipo) values (8513,1);
+insert into sala(id_sala,id_tipo) values (8861,3);
+insert into sala(id_sala,id_tipo) values (7649,3);
+insert into sala(id_sala,id_tipo) values (8971,2);
+insert into sala(id_sala,id_tipo) values (9497,1);
+insert into sala(id_sala,id_tipo) values (9649,3);
+insert into sala(id_sala,id_tipo) values (9973,3);
+insert into sala(id_sala,id_tipo) values (9007,3);
+//////////////////////////////////////////////////////////////////
+sala_usuario
+
+id_sala_usuario int,
+id_sala int,
+id_nombre in
+
+insert into sala_usuario(id_sala_usuario,id_sala,id_nombre)  values (1,2267,20192196);Alexander
+insert into sala_usuario(id_sala_usuario,id_sala,id_nombre) values (2,2267,40229394);jimmy
+////
+insert into sala_usuario(id_sala_usuario,id_sala,id_nombre) values (3,3253,40229394);jimmy
+insert into sala_usuario(id_sala_usuario,id_sala,id_nombre) values (4,3253,20193246);diego
+////
+insert into sala_usuario(id_sala_usuario,id_sala,id_nombre) values(5,3209,34256743);alejandro
+insert into sala_usuario(id_sala_usuario,id_sala,id_nombre) values(6,3209,40229394);jimmy
+////
+insert into sala_usuario(id_sala_usuario,id_sala,id_nombre) values(7,4099,43226598);poma
+insert into sala_usuario(id_sala_usuario,id_sala,id_nombre) values(8,4099,40229394);jimmy
+///
+insert into sala_usuario(id_sala_usuario,id_sala,id_nombre) values(9,4933,64632167);royer
+insert into sala_usuario(id_sala_usuario,id_sala,id_nombre) values(10,4933,40229394);jimmy
+////
+insert into sala_usuario(id_sala_usuario,id_sala,id_nombre) values(11,5273,43532366);jose
+insert into sala_usuario(id_sala_usuario,id_sala,id_nombre) values(11,5273,40229394);jimmy
+////
+insert into sala_usuario(id_sala_usuario,id_sala,id_nombre) values(12,6701,40229394);jimmy
+insert into sala_usuario(id_sala_usuario,id_sala,id_nombre) values(13,6701,34523674);gilberto
+/////
+insert into sala_usuario(id_sala_usuario,id_sala,id_nombre) values(14,8513,33451234);gustavo
+insert into sala_usuario(id_sala_usuario,id_sala,id_nombre) values(15,8513,40229394);jimmy
+//////
+insert into sala_usuario(id_sala_usuario,id_sala,id_nombre) values(16,8861,40229394);jimmy
+insert into sala_usuario(id_sala_usuario,id_sala,id_nombre) values(17,8861,23427654);jesus
+//////
+insert into sala_usuario(id_sala_usuario,id_sala,id_nombre) values(18,7649,20192196);alexander
+insert into sala_usuario(id_sala_usuario,id_sala,id_nombre) values(19,7649,23427654);jesus
+////
+insert into sala_usuario(id_sala_usuario,id_sala,id_nombre) values(20,9497,20192196);alexander
+insert into sala_usuario(id_sala_usuario,id_sala,id_nombre) values(21,9497,20193246);diego
+////
+insert into sala_usuario(id_sala_usuario,id_sala,id_nombre) values(22,9649,20192196);alexander
+insert into sala_usuario(id_sala_usuario,id_sala,id_nombre) values(23,9649,34256743);alejandro
+////
+insert into sala_usuario(id_sala_usuario,id_sala,id_nombre) values(24,9973,20192196);alexander
+insert into sala_usuario(id_sala_usuario,id_sala,id_nombre) values(25,9973,43226598);jhon
+///
+insert into sala_usuario(id_sala_usuario,id_sala,id_nombre) values(26,9007,64632167);royer
+insert into sala_usuario(id_sala_usuario,id_sala,id_nombre) values(27,9007,20192196);alexander
+
+
+//////////////////////////////////////////////////////////////////////////////////7
+consultas:
+
+select id_sala from sala_usuario left join  usuario on sala_usuario.id_nombre = usuario.id_nombre where usuario.nombre = 'Jimmy';
+
+select id_sala from sala_usuario where sala_usuario.id_nombre=20192196 
+intersect
+select id_sala from sala_usuario where sala_usuario.id_nombre=40229394;
+
+//////////////////////////////////////////////////////////////////////////////////
+
