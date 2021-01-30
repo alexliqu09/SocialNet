@@ -1,6 +1,8 @@
 
-<center>
+<p align="center">
 
-![Alt text](../SocialNet/src/to/alex.gif?raw=true "Title")
+<img src="src/alex.gif" width="700"/>
 
-</center>
+<p align="center">"SocialNet"</p>
+
+</p align="center">
