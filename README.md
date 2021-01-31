@@ -69,7 +69,7 @@ Bellow is the ```versionV1``` of SocialNet.
 
 * Alexander Leonardo Lique Lamas, Github: [alexliqu09](https://github.com/alexliqu09) Email: alexander.lique.l@uni.pe
 * Alejandro Alfonso Polanco Parco , Email: alejandro.polanco.p@uni.pe 
-* Diego Vázques Levano , Email: diego.vasquez.l@uni.pe  
+* Diego Vázques Levano Github: [Diego-Vasquez](https://github.com/Diego-Vasquez), Email: diego.vasquez.l@uni.pe  
 * Jhon Poma Martinez , Email: jhonatan.poma.m@uni.pe 
 
 ## 🙏🏽 Special thanks
