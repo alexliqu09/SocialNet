@@ -70,10 +70,12 @@ Bellow is the ```versionV1``` of SocialNet.
 * Alexander Leonardo Lique Lamas, Github: [alexliqu09](https://github.com/alexliqu09) Email: alexander.lique.l@uni.pe
 * Alejandro Alfonso Polanco Parco Github: [AlejoProgrammer](https://github.com/AlejoProgrammer) , Email: alejandro.polanco.p@uni.pe 
 * Diego Vázques Levano Github: [Diego-Vasquez](https://github.com/Diego-Vasquez), Email: diego.vasquez.l@uni.pe  
-* Jhon Poma Martinez , Email: jhonatan.poma.m@uni.pe 
+* Jhon Poma Martinez , Github: [JhonPoma](https://github.com/JhonPoma) Email: jhonatan.poma.m@uni.pe 
 
 ## 🙏🏽 Special thanks
 
 * Many thanks the chanel [hdeleon.net](https://www.youtube.com/channel/UCDUdeFslCNoM29MAlZOfdWQ) , this work would not have been possible without your [video](https://www.youtube.com/watch?v=7Opd2EjrqnM&t=1s).
 
 * Many thanks to this [pageWeb](https://stackoverflow.com/questions/14642125/i-need-to-primitive-root-of-prime-number) ,this work would not have been possible without your code.
+
+* Many thanks of [bilal-hungund](https://auth.geeksforgeeks.org/user/bilal-hungund/articles) , this work would not have been possible without your [code]([code]https://www.geeksforgeeks.org/sha-256-hash-in-java/).
