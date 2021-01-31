@@ -47,7 +47,7 @@ The following tree shows the structure of the application:
 
 1. Download PostgreSQLJDBC Driver -postgressql-42.2.16.jar ,you can consult [here](https://jdbc.postgresql.org/download.html)
 
-2. Create databese , therefore use the [script.tx](https://github.com/alexliqu09/SocialNet/blob/main/script.txt)
+2. Create databese , therefore use the [script.txt](https://github.com/alexliqu09/SocialNet/blob/main/script.txt)
 
 3. Clone this repo:
 ```
