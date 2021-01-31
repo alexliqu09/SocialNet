@@ -65,7 +65,7 @@ Bellow is the ```versionV1``` of SocialNet.
 
 </p align="center">
 
-## 👨🏽‍💻 Maintainer
+## 👨🏽‍💻 Maintainers
 
 * Alexander Leonardo Lique Lamas, Github: [alexliqu09](https://github.com/alexliqu09) Email: alexander.lique.l@uni.pe
 * Alejandro Alfonso Polanco Parco , Email: alejandro.polanco.p@uni.pe 
