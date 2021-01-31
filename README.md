@@ -74,6 +74,6 @@ Bellow is the ```versionV1``` of SocialNet.
 
 ## 🙏🏽 Special thanks
 
-* Many thanks to the youtube chanel [hdeleon.net](https://www.youtube.com/channel/UCDUdeFslCNoM29MAlZOfdWQ) , this work would not have been possible without your repository.
+* Many thanks the chanel [hdeleon.net](https://www.youtube.com/channel/UCDUdeFslCNoM29MAlZOfdWQ) , this work would not have been possible without your [video](https://www.youtube.com/watch?v=7Opd2EjrqnM&t=1s).
 
-* Many thanks to this [pageWeb](https://stackoverflow.com/questions/14642125/i-need-to-primitive-root-of-prime-number) ,this work would not have been possible without your repository.
+* Many thanks to this [pageWeb](https://stackoverflow.com/questions/14642125/i-need-to-primitive-root-of-prime-number) ,this work would not have been possible without your code.
