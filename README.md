@@ -12,9 +12,9 @@
 ## 📜 Abstract
 
 ## 🆕 Update
-- 23/01/2021 :
+- 04/02/2021 :
 
- This is the first version of SocialNet.
+ This is the version number 1 of SocialNet.
 
 ## 📖 Content
 
@@ -81,3 +81,13 @@ Bellow is the ```versionV1``` of SocialNet.
 * Many thanks of [bilal-hungund](https://auth.geeksforgeeks.org/user/bilal-hungund/articles) , this work would not have been possible without your [code]([code]https://www.geeksforgeeks.org/sha-256-hash-in-java/).
 
 * Many thanks the chanel [La Geekipedia De Ernesto](https://www.youtube.com/channel/UCeEW6PHNJlIwI-rKChmqqkw) , this work would not have been possible without your [video](https://www.youtube.com/watch?v=xGzeEUHcsj8)
+
+# Citation
+
+If you want to cite this code for your research , please cite my paper:
+```
+@article{lique , 
+ title={Message protection System using RSA, Diffie Hellman and SHA-256 encryption algorithms}, 
+ author={Lique Lamas, Alexander Leonardo and Jhonatan, Poma Martinez and Vásquez Lévano, Diego Manuel Jesús and Polanco Parco, Alejandro Alfonso},
+ year={2021}}
+ ```
