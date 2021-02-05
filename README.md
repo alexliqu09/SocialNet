@@ -62,7 +62,7 @@ Bellow is the ```versionV1``` of SocialNet.
  
 <p align="center">
 
-<img src="src/alex.gif" width="700"/>
+<img src="src/alex.gif" width="650"/>
 
 <p align="center">"SocialNet"</p>
 
