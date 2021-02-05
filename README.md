@@ -14,8 +14,10 @@
 
 The present research aims to implement an encryption system using the RSA,DIFFIE-HELLMAN, SHA-256 algorithms, for the reliability of the transmission of messages in an application. In this work we focus on learning about the uses ofcomputer security, specifically cryptography, thus reducing vulnerabilities in theface of threats from malicious software origin and people where the informationfaces risks of damage or loss.  For this purpose we will first see the theoreticalframework where we will address issues related to computer security, Cryptography,as well as the concepts of the aforementioned algorithms, among others.  Theseconcepts will help us to better understand the encryption steps of our application.Finally, as an example we simulate our investigation.keywords:Java , Cryptography , Database , Postgresql . RSA , Sha256 , Diffie-Hellman.
 
+The paper is available at this [here](https://drive.google.com/file/d/1rrsumdkHPGvV8sGGtUI3bOMSG7eg4RcI/view?usp=sharing)
+
 ## 🆕 Update
-- 04/02/2021 :
+- 05/02/2021 :
 
  This is the version number 1 of SocialNet.
 
