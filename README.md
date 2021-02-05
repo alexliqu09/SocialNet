@@ -81,7 +81,7 @@ Bellow is the ```versionV1``` of SocialNet.
 
 * Many thanks to this [pageWeb](https://stackoverflow.com/questions/14642125/i-need-to-primitive-root-of-prime-number) ,this work would not have been possible without you.
 
-* Many thanks of [bilal-hungund](https://auth.geeksforgeeks.org/user/bilal-hungund/articles) , this work would not have been possible without your [page]([code]https://www.geeksforgeeks.org/sha-256-hash-in-java/).
+* Many thanks of [bilal-hungund](https://auth.geeksforgeeks.org/user/bilal-hungund/articles) , this work would not have been possible without your [page](https://www.geeksforgeeks.org/sha-256-hash-in-java/).
 
 * Many thanks the chanel [La Geekipedia De Ernesto](https://www.youtube.com/channel/UCeEW6PHNJlIwI-rKChmqqkw) , this work would not have been possible without your [video](https://www.youtube.com/watch?v=xGzeEUHcsj8)
 
