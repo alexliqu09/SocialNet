@@ -7,6 +7,7 @@ package logearse1;
 
 import Encriptacion.Complemento;
 import Interfaces.Pantalla;
+import Postgrest.Postgres;
 /**
  *
  * @author Alejandro
@@ -104,10 +105,15 @@ public class Menu extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void Lista_AmigosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Lista_AmigosMouseClicked
-        
+        String usuario_1=Interfaz.jUsuario.getText();
+        String usuario_2=Lista_Amigos.getSelectedValue().toString();
+        Postgres con= new   Postgres();
+        String usuario_emisor=con.select("id_nombre","nombre",usuario_1);
+        String usuario_receptor =con.select("id_nombre","nombre",usuario_2);
+        int prime = Integer.parseInt(con.intersect(usuario_emisor,usuario_receptor));
         Pantalla pant1, pant2;
-        int prime = Complemento.generatePrime();//ERROR
-        
+      //int prime = Complemento.generatePrime();//ERROR
+       // int prime=Integer.parseInt();
         pant1 = new Pantalla(prime); pant1.setVisible(true);            
         pant2 = new Pantalla(prime); pant2.setVisible(true);
         pant1.setLocation(400, 400);

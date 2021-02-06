@@ -29,10 +29,7 @@ hora varchar(12));
 create table codigo(
 cd_sesion_user bigint,
 id_nombre bigint);
-
-
 /*
-
 insert into codigo(cd_sesion_user,id_nombre) values (367,20192196);
 insert into codigo(cd_sesion_user,id_nombre) values (271,20193246);
 insert into codigo(cd_sesion_user,id_nombre) values (263,34256743);

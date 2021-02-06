@@ -171,14 +171,6 @@ public class RSA {
         for (int i:this.encryptedMessage) testing.append(i+" ");
         
         testing.append("\n");
-        /*
-        String message=guardar_message(this.encryptedMessage);
-        System.out.println("no imprimes :"+message);
-        Postgres pos = new Postgres();
-        String id_nombre=pos.select("id_nombre","nombre", usuario);
-        int id_nom=Integer.parseInt(id_nombre);
-        pos.guardar(id_nom,message, 1);
-   */
         return testing.toString();
    
         }

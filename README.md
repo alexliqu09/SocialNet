@@ -9,12 +9,17 @@
 <p></p>
 <p></p>
 </h2>
+
 ## 📜 Abstract
 
-## 🆕 Update
-- 23/01/2021 :
+The present research aims to implement an encryption system using the RSA,DIFFIE-HELLMAN, SHA-256 algorithms, for the reliability of the transmission of messages in an application. In this work we focus on learning about the uses ofcomputer security, specifically cryptography, thus reducing vulnerabilities in theface of threats from malicious software origin and people where the informationfaces risks of damage or loss.  For this purpose we will first see the theoreticalframework where we will address issues related to computer security, Cryptography,as well as the concepts of the aforementioned algorithms, among others.  Theseconcepts will help us to better understand the encryption steps of our application.Finally, as an example we simulate our investigation.keywords:Java , Cryptography , Database , Postgresql . RSA , Sha256 , Diffie-Hellman.
 
- This is the first version of SocialNet.
+The paper is available at this [here](https://drive.google.com/file/d/1rrsumdkHPGvV8sGGtUI3bOMSG7eg4RcI/view?usp=sharing)
+
+## 🆕 Update
+- 05/02/2021 :
+
+ This is the version number 1 of SocialNet.
 
 ## 📖 Content
 
@@ -47,7 +52,7 @@ The following tree shows the structure of the application:
 
 1. Download PostgreSQLJDBC Driver -postgressql-42.2.16.jar ,you can consult [here](https://jdbc.postgresql.org/download.html)
 
-2. Create databese , therefore use the [script.tx](https://github.com/alexliqu09/SocialNet/blob/main/script.txt)
+2. Create databese , therefore use the [script.txt](https://github.com/alexliqu09/SocialNet/blob/main/script.txt)
 
 3. Clone this repo:
 ```
@@ -65,15 +70,29 @@ Bellow is the ```versionV1``` of SocialNet.
 
 </p align="center">
 
-## 👨🏽‍💻 Maintainer
+## 👨🏽‍💻 Maintainers
 
 * Alexander Leonardo Lique Lamas, Github: [alexliqu09](https://github.com/alexliqu09) Email: alexander.lique.l@uni.pe
-* Alejandro Alfonso Polanco Parco , Email: alejandro.polanco.p@uni.pe 
+* Alejandro Alfonso Polanco Parco Github: [AlejoProgrammer](https://github.com/AlejoProgrammer) , Email: alejandro.polanco.p@uni.pe 
 * Diego Vázques Levano Github: [Diego-Vasquez](https://github.com/Diego-Vasquez), Email: diego.vasquez.l@uni.pe  
-* Jhon Poma Martinez , Email: jhonatan.poma.m@uni.pe 
+* Jhon Poma Martinez , Github: [JhonPoma](https://github.com/JhonPoma) Email: jhonatan.poma.m@uni.pe 
 
 ## 🙏🏽 Special thanks
 
-* Many thanks to the youtube chanel [hdeleon.net](https://www.youtube.com/channel/UCDUdeFslCNoM29MAlZOfdWQ) , this work would not have been possible without your repository.
+* Many thanks the chanel [hdeleon.net](https://www.youtube.com/channel/UCDUdeFslCNoM29MAlZOfdWQ) , this work would not have been possible without your [video](https://www.youtube.com/watch?v=7Opd2EjrqnM&t=1s).
 
-* Many thanks to this [pageWeb](https://stackoverflow.com/questions/14642125/i-need-to-primitive-root-of-prime-number) ,this work would not have been possible without your repository.
+* Many thanks to this [pageWeb](https://stackoverflow.com/questions/14642125/i-need-to-primitive-root-of-prime-number) ,this work would not have been possible without you.
+
+* Many thanks of [bilal-hungund](https://auth.geeksforgeeks.org/user/bilal-hungund/articles) , this work would not have been possible without your [page](https://www.geeksforgeeks.org/sha-256-hash-in-java/).
+
+* Many thanks the chanel [La Geekipedia De Ernesto](https://www.youtube.com/channel/UCeEW6PHNJlIwI-rKChmqqkw) , this work would not have been possible without your [video](https://www.youtube.com/watch?v=xGzeEUHcsj8)
+
+# Citation
+
+If you want to cite this code for your research , please cite my paper:
+```
+@article{lique , 
+ title={Message protection System using RSA, Diffie Hellman and SHA-256 encryption algorithms}, 
+ author={Lique Lamas, Alexander Leonardo and Jhonatan, Poma Martinez and Vásquez Lévano, Diego Manuel Jesús and Polanco Parco, Alejandro Alfonso},
+ year={2021}}
+ ```
