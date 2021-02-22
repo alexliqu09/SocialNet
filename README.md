@@ -89,7 +89,7 @@ Bellow is the ```versionV1``` of SocialNet.
 
 # Citation
 
-If you want to cite this code for your research , please cite my paper:
+If you want to cite this code for your research , please cite our paper:
 ```
 @article{lique , 
  title={Message protection System using RSA, Diffie Hellman and SHA-256 encryption algorithms}, 
