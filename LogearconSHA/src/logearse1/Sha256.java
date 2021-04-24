@@ -11,31 +11,30 @@ public class Sha256 {
     
     public static byte[] getSHA(String input) throws NoSuchAlgorithmException 
     {  
-        // Static getInstance method is called with hashing SHA  
+        // Metodo estatico getInstance asigna SHA-256 hash
         MessageDigest md = MessageDigest.getInstance("SHA-256");  
   
-        // digest() method called
-        // to calculate message digest of an input
-        // and return array of byte
+        // Llamamos el metodo digest()
+        // Calcular el mensaje encriptado de un input
+        // y retornamos un arreglo de bytes
         return md.digest(input.getBytes(StandardCharsets.UTF_8));  
     }
-    
     public static String toHexString(byte[] hash) 
     {
-        // Convert byte array into signum representation  
+        // Convierte el arreglo de bytes a representacion signum
         BigInteger number = new BigInteger(1, hash);  
-  
-        // Convert message digest into hex value  
+        
+        // Convierte el mensaje encriptado a sistema hexadecimal
         StringBuilder hexString = new StringBuilder(number.toString(16));  
-  
-        // Pad with leading zeros 
+        
         while (hexString.length() < 32)  
         {  
             hexString.insert(0, '0');  
         }  
   
         return hexString.toString();  
-    } 
+    }
+      
   
       
     public static void main(String args[]) 
